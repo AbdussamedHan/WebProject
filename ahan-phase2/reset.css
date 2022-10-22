@@ -1,0 +1,65 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+header{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+}
+
+article{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    margin: 0;
+    padding: 0;
+}
+
+th td{
+    display: inline;
+}
+
+table{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+fieldset{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+button{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}

@@ -1,0 +1,302 @@
+/*---------- ALL ----------*/
+
+body{
+    background-color: #2a2033
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 215);
+    font-family: sans-serif;
+}
+
+a:hover{
+    color: rgb(170, 146, 255);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: sans-serif;
+    color: rgb(255, 255, 215);
+}
+
+figcaption{
+    color: rgb(255, 255, 215);
+}
+
+/*---------- HEADER ----------*/
+
+header{
+    height: 3em;
+    padding-block: 1em;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header li{
+    display: inline;
+    padding: 1em;
+}
+
+.login{
+    float: right;
+    padding-right: 1em;
+}
+
+.home{
+    float: left;
+    padding-left: 1em;
+}
+
+/*---------- FOOTER ----------*/
+
+footer{
+    background: rgb(170, 146, 255);
+    color: rgb(124, 88, 255);
+    position: fixed;
+    display: inline;
+    width: 100%;
+    height: 4em;
+    bottom: 0;
+    left: 0;
+    border-top: white solid 1px;
+}
+
+footer li{
+    display: inline;
+    margin: 1em;
+}
+
+footer nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-name{
+    float: left;
+    margin-block: 1em;
+    margin-left: 1em;
+    max-width: 50%;
+}
+
+.img-github, .img-linkedin{
+    border-radius: 10%;
+    max-width: 20%;
+    opacity: 0.4;
+}
+
+.img-github:hover, .img-linkedin:hover{
+    opacity: 1;
+}
+
+/*---------- MAIN ----------*/
+
+.homepage-body{
+    display: block;
+}
+
+.homepage-headings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.homepage-headings h2{
+    font-size: 3em;
+    text-align: center;
+}
+
+.homepage-headings h3{
+    font-size: 1em;
+    text-align: center;
+}
+
+.homepage-skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15em;
+}
+
+table{
+    border-spacing: 3em;
+}
+
+.python, .java, .html, .css, .js, .php{
+    width: 5em;
+    height: 5em;
+    opacity: 0.4;
+}
+
+.python:hover, .java:hover, .html:hover, .css:hover, .js:hover, .php:hover{
+    opacity: 1;
+}
+
+/*---------- ABOUT ME ----------*/
+
+.about-me-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30em;
+    width: 30em;
+}
+
+.about-me-image{
+    width: 15em;
+}
+
+.about-me-title{
+    color: rgb(255, 255, 215);
+    font-family: sans-serif;
+    font-size: 2em;
+    padding-left: 3em;
+    border-bottom: rgb(255, 255, 215) solid 1px;
+}
+
+.about-me-article{
+    color: rgb(255, 255, 215);
+    background: rgb(170, 146, 255);
+    padding: 2em;
+    border-radius: 0 30% 0 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.about-me-table{
+    margin: auto;
+    height: 20em;
+    width: 99%;
+}
+
+/*---------- EXPERIENCE ----------*/
+.experience-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+.experience-article{
+    color: rgb(255, 255, 215);
+    background: rgb(170, 146, 255);
+    padding: 2em;
+    border-radius: 0 20% 0 20%;
+    width: 40em;
+    font-family: sans-serif;
+}
+
+.experience-image1, .experience-image2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 10em;
+    padding-block: 3em;
+    width: 15em;
+}
+
+.experience-csn{
+    padding-left: 2em;
+}
+
+.experience-title{
+    color: #1f0b31;
+}
+
+/*---------- BOTH FORMS ----------*/
+
+.login-heading, .blog-heading, .view-blog-heading{
+    font-size: 3em;
+}
+.view-blog-heading{
+    padding-bottom: 1em;
+}
+
+::placeholder{
+    color: rgb(114, 114, 114);
+}
+
+button{
+    background: #1f0b31;
+    color: rgb(255, 255, 215);
+    border: none;
+    width: 15em;
+    height: 4em;
+    margin-top: 2em;
+    font-size: 1em;
+    font-family: sans-serif;
+}
+
+button:hover{
+    background: rgb(170, 146, 255);
+}
+
+fieldset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+
+/*---------- LOGIN FORM ----------*/
+.login-main{
+    text-align: center;
+}
+
+/*---------- BLOG FORM ----------*/
+
+.blog-main, .view-blog-main{
+    text-align: center;
+}
+
+input, textarea{
+    background: rgb(170, 146, 255);
+    border: none;
+    width: 40em;
+    padding: 1em;
+    margin: 1em;
+    font-size: 1em;
+}
+
+.view-blogs-body{
+    text-align: center;
+    background: rgb(170, 146, 255);
+    border: none;
+    width: 85em;
+    padding: 1em;
+    margin: 1em;
+    font-size: 1em;
+}
+
+.view-blog-element{
+    border: solid 1px black;
+}
+
+.blog-element-header {
+    background: #1f0b31;
+    color: rgb(255, 255, 215);
+}
+
+.blog-element-header li{
+    display: inline;
+    padding: 1em;
+}
+
+.blog-element-body{
+    display: block;
+    text-align: center;
+}
+
+.dropDownSubmit{
+    width: 5em;
+    height: 2%;
+}
